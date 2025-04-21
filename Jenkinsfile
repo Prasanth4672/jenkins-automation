@@ -3,7 +3,7 @@ pipeline{
     tools{
         maven 'maven'
     }
-    #Setting Docker Path For MacOS
+    //Setting Docker Path For MacOS
     environment {
         PATH = "/usr/local/bin:${env.PATH}"
     }
